@@ -1,5 +1,4 @@
 using System;
-using Domain;
 using Domain.HolidayRequestAggregate;
 using Xunit;
 
