@@ -15,10 +15,12 @@ namespace Domain.HolidayRequestAggregate
         {
             return new HolidayRequestApproved(Id);
         }
+
         public HolidayRequestDeclined Decline()
         {
             return new HolidayRequestDeclined(Id);
         }
+
         public HolidayRequestCanceled Cancel()
         {
             return new HolidayRequestCanceled(Id);
